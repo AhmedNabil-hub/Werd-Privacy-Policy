@@ -1,144 +1,233 @@
-# Privacy Policy for Werd - Islamic Habit Tracker
-
-**Last updated:** January 28, 2026
-
-## Introduction
-Welcome to Werd. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we handle your information when you use our mobile application.
-
-## Information We Collect
-
-### Data Stored Locally on Your Device
-- **Habit Data:** Your habits, completion logs, streaks, and progress
-- **User Preferences:** App settings, theme preferences, language selection
-- **Achievements:** Your earned badges and XP points
-- **Notifications:** Your notification preferences and scheduled reminders
-
-### Location Data
-- We use your location **only** to calculate accurate prayer times and Qibla direction
-- Location data is **not** transmitted to our servers
-- Location data is **not** shared with third parties
-- You can deny location permission, but prayer time features will not work
-
-## How We Use Your Information
-
-We use the collected information to:
-- Provide habit tracking functionality
-- Calculate prayer times based on your location
-- Send local notifications for habit reminders
-- Display your progress and achievements
-- Sync data across your devices (if you enable cloud backup)
-
-## Data Storage and Security
-
-### Local Storage
-- All your data is stored **locally** on your device using encrypted storage
-- We use industry-standard encryption for sensitive data
-- Data remains on your device unless you explicitly export or backup
-
-### Cloud Backup (Optional)
-- If you enable cloud backup, encrypted data is stored in Firebase
-- You can disable cloud backup at any time
-- You can delete all cloud data from the app settings
-
-## Data Sharing
-
-We **DO NOT**:
-- Sell your personal data
-- Share your data with advertisers
-- Track your activity across other apps or websites
-- Collect data for marketing purposes
-
-We **MAY** share anonymized, aggregated data for:
-- App improvement and analytics
-- Bug fixing and performance optimization
-
-## Third-Party Services
-
-This app uses the following third-party services:
-
-### Google Fonts
-- Used for app typography
-- Privacy Policy: https://developers.google.com/fonts/faq/privacy
-
-### Firebase (Optional - if cloud backup enabled)
-- Used for cloud backup and notifications
-- Privacy Policy: https://firebase.google.com/support/privacy
-
-### Flutter Framework
-- Used for app development
-- Privacy Policy: https://flutter.dev/privacy
-
-## Your Rights and Choices
-
-You have the right to:
-- **Access** your data through the app interface
-- **Export** your data using the backup feature
-- **Delete** your data at any time from settings
-- **Opt-out** of notifications
-- **Disable** location services
-- **Request** data deletion by contacting us
-
-## Children's Privacy
-
-Werd is suitable for users of all ages. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.
-
-## Data Retention
-
-- Local data is retained until you delete it or uninstall the app
-- Cloud backup data is retained until you delete it from settings
-- Deleted data cannot be recovered
-
-## Changes to This Privacy Policy
-
-We may update this privacy policy from time to time. We will notify you of any changes by:
-- Posting the new privacy policy in the app
-- Updating the "Last updated" date
-- Sending an in-app notification for significant changes
-
-## International Data Transfers
-
-If you use cloud backup, your data may be transferred to and stored on servers in different countries. We ensure appropriate safeguards are in place to protect your data.
-
-## Contact Us
-
-If you have any questions about this privacy policy or our data practices, please contact us:
-
-- **Email:** support@werd.app (replace with your actual email)
-- **Website:** https://werd.app (replace with your actual website)
-- **In-App:** Settings → Help & Support → Contact Us
-
-## Consent
-
-By using Werd, you consent to this privacy policy and agree to its terms.
-
----
-
-## Additional Information for Store Compliance
-
-### Google Play Store
-This app complies with Google Play's User Data policy and does not access, collect, use, or share user data beyond what is disclosed in this policy.
-
-### Apple App Store
-This app complies with Apple's App Store Review Guidelines and provides clear disclosure of data collection practices in the App Store listing.
-
-### GDPR Compliance (European Users)
-If you are in the European Economic Area (EEA), you have additional rights under GDPR:
-- Right to access your data
-- Right to rectification
-- Right to erasure ("right to be forgotten")
-- Right to data portability
-- Right to object to processing
-- Right to withdraw consent
-
-To exercise these rights, contact us at the email above.
-
-### CCPA Compliance (California Users)
-If you are a California resident, you have rights under CCPA:
-- Right to know what personal information is collected
-- Right to delete personal information
-- Right to opt-out of sale of personal information (we don't sell data)
-- Right to non-discrimination
-
----
-
-**This privacy policy is effective as of the date stated above and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.**
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Werd Islamic Habit Tracker</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+            background-color: #fff;
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #34495e;
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #7f8c8d;
+            margin-top: 20px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        strong {
+            color: #2c3e50;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #eee;
+            margin: 30px 0;
+        }
+        .last-updated {
+            color: #7f8c8d;
+            font-style: italic;
+        }
+        .footer-note {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for Werd - Islamic Habit Tracker</h1>
+    
+    <p class="last-updated"><strong>Last updated:</strong> January 28, 2026</p>
+    
+    <h2>Introduction</h2>
+    <p>Welcome to Werd. We respect your privacy and are committed to protecting your personal data. This privacy policy explains how we handle your information when you use our mobile application.</p>
+    
+    <h2>Information We Collect</h2>
+    
+    <h3>Data Stored Locally on Your Device</h3>
+    <ul>
+        <li><strong>Habit Data:</strong> Your habits, completion logs, streaks, and progress</li>
+        <li><strong>User Preferences:</strong> App settings, theme preferences, language selection</li>
+        <li><strong>Achievements:</strong> Your earned badges and XP points</li>
+        <li><strong>Notifications:</strong> Your notification preferences and scheduled reminders</li>
+    </ul>
+    
+    <h3>Location Data</h3>
+    <ul>
+        <li>We use your location <strong>only</strong> to calculate accurate prayer times and Qibla direction</li>
+        <li>Location data is <strong>not</strong> transmitted to our servers</li>
+        <li>Location data is <strong>not</strong> shared with third parties</li>
+        <li>You can deny location permission, but prayer time features will not work</li>
+    </ul>
+    
+    <h2>How We Use Your Information</h2>
+    <p>We use the collected information to:</p>
+    <ul>
+        <li>Provide habit tracking functionality</li>
+        <li>Calculate prayer times based on your location</li>
+        <li>Send local notifications for habit reminders</li>
+        <li>Display your progress and achievements</li>
+        <li>Sync data across your devices (if you enable cloud backup)</li>
+    </ul>
+    
+    <h2>Data Storage and Security</h2>
+    
+    <h3>Local Storage</h3>
+    <ul>
+        <li>All your data is stored <strong>locally</strong> on your device using encrypted storage</li>
+        <li>We use industry-standard encryption for sensitive data</li>
+        <li>Data remains on your device unless you explicitly export or backup</li>
+    </ul>
+    
+    <h3>Cloud Backup (Optional)</h3>
+    <ul>
+        <li>If you enable cloud backup, encrypted data is stored in Firebase</li>
+        <li>You can disable cloud backup at any time</li>
+        <li>You can delete all cloud data from the app settings</li>
+    </ul>
+    
+    <h2>Data Sharing</h2>
+    <p>We <strong>DO NOT</strong>:</p>
+    <ul>
+        <li>Sell your personal data</li>
+        <li>Share your data with advertisers</li>
+        <li>Track your activity across other apps or websites</li>
+        <li>Collect data for marketing purposes</li>
+    </ul>
+    
+    <p>We <strong>MAY</strong> share anonymized, aggregated data for:</p>
+    <ul>
+        <li>App improvement and analytics</li>
+        <li>Bug fixing and performance optimization</li>
+    </ul>
+    
+    <h2>Third-Party Services</h2>
+    <p>This app uses the following third-party services:</p>
+    
+    <h3>Google Fonts</h3>
+    <ul>
+        <li>Used for app typography</li>
+        <li>Privacy Policy: <a href="https://developers.google.com/fonts/faq/privacy" target="_blank">https://developers.google.com/fonts/faq/privacy</a></li>
+    </ul>
+    
+    <h3>Firebase (Optional - if cloud backup enabled)</h3>
+    <ul>
+        <li>Used for cloud backup and notifications</li>
+        <li>Privacy Policy: <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></li>
+    </ul>
+    
+    <h3>Flutter Framework</h3>
+    <ul>
+        <li>Used for app development</li>
+        <li>Privacy Policy: <a href="https://flutter.dev/privacy" target="_blank">https://flutter.dev/privacy</a></li>
+    </ul>
+    
+    <h2>Your Rights and Choices</h2>
+    <p>You have the right to:</p>
+    <ul>
+        <li><strong>Access</strong> your data through the app interface</li>
+        <li><strong>Export</strong> your data using the backup feature</li>
+        <li><strong>Delete</strong> your data at any time from settings</li>
+        <li><strong>Opt-out</strong> of notifications</li>
+        <li><strong>Disable</strong> location services</li>
+        <li><strong>Request</strong> data deletion by contacting us</li>
+    </ul>
+    
+    <h2>Children's Privacy</h2>
+    <p>Werd is suitable for users of all ages. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us.</p>
+    
+    <h2>Data Retention</h2>
+    <ul>
+        <li>Local data is retained until you delete it or uninstall the app</li>
+        <li>Cloud backup data is retained until you delete it from settings</li>
+        <li>Deleted data cannot be recovered</li>
+    </ul>
+    
+    <h2>Changes to This Privacy Policy</h2>
+    <p>We may update this privacy policy from time to time. We will notify you of any changes by:</p>
+    <ul>
+        <li>Posting the new privacy policy in the app</li>
+        <li>Updating the "Last updated" date</li>
+        <li>Sending an in-app notification for significant changes</li>
+    </ul>
+    
+    <h2>International Data Transfers</h2>
+    <p>If you use cloud backup, your data may be transferred to and stored on servers in different countries. We ensure appropriate safeguards are in place to protect your data.</p>
+    
+    <h2>Contact Us</h2>
+    <p>If you have any questions about this privacy policy or our data practices, please contact us:</p>
+    <ul>
+        <li><strong>Email:</strong> support@werd.app (replace with your actual email)</li>
+        <li><strong>Website:</strong> <a href="https://werd.app" target="_blank">https://werd.app</a> (replace with your actual website)</li>
+        <li><strong>In-App:</strong> Settings → Help &amp; Support → Contact Us</li>
+    </ul>
+    
+    <h2>Consent</h2>
+    <p>By using Werd, you consent to this privacy policy and agree to its terms.</p>
+    
+    <hr>
+    
+    <h2>Additional Information for Store Compliance</h2>
+    
+    <h3>Google Play Store</h3>
+    <p>This app complies with Google Play's User Data policy and does not access, collect, use, or share user data beyond what is disclosed in this policy.</p>
+    
+    <h3>Apple App Store</h3>
+    <p>This app complies with Apple's App Store Review Guidelines and provides clear disclosure of data collection practices in the App Store listing.</p>
+    
+    <h3>GDPR Compliance (European Users)</h3>
+    <p>If you are in the European Economic Area (EEA), you have additional rights under GDPR:</p>
+    <ul>
+        <li>Right to access your data</li>
+        <li>Right to rectification</li>
+        <li>Right to erasure ("right to be forgotten")</li>
+        <li>Right to data portability</li>
+        <li>Right to object to processing</li>
+        <li>Right to withdraw consent</li>
+    </ul>
+    <p>To exercise these rights, contact us at the email above.</p>
+    
+    <h3>CCPA Compliance (California Users)</h3>
+    <p>If you are a California resident, you have rights under CCPA:</p>
+    <ul>
+        <li>Right to know what personal information is collected</li>
+        <li>Right to delete personal information</li>
+        <li>Right to opt-out of sale of personal information (we don't sell data)</li>
+        <li>Right to non-discrimination</li>
+    </ul>
+    
+    <hr>
+    
+    <div class="footer-note">
+        <p><strong>This privacy policy is effective as of the date stated above and will remain in effect except with respect to any changes in its provisions in the future, which will be in effect immediately after being posted on this page.</strong></p>
+    </div>
+</body>
+</html>
